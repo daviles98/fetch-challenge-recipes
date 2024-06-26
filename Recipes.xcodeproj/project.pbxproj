@@ -14,6 +14,8 @@
 		C9E5114A2C2C87B800DC2D2D /* RecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E511492C2C87B800DC2D2D /* RecipesTests.swift */; };
 		C9E511542C2C87B800DC2D2D /* RecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E511532C2C87B800DC2D2D /* RecipesUITests.swift */; };
 		C9E511562C2C87B800DC2D2D /* RecipesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E511552C2C87B800DC2D2D /* RecipesUITestsLaunchTests.swift */; };
+		C9E511632C2C9E6500DC2D2D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E511622C2C9E6500DC2D2D /* CircleImage.swift */; };
+		C9E511652C2C9EF300DC2D2D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E511642C2C9EF300DC2D2D /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		C9E5114F2C2C87B800DC2D2D /* RecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E511532C2C87B800DC2D2D /* RecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesUITests.swift; sourceTree = "<group>"; };
 		C9E511552C2C87B800DC2D2D /* RecipesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9E511622C2C9E6500DC2D2D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		C9E511642C2C9EF300DC2D2D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				C9E511382C2C87B700DC2D2D /* RecipesApp.swift */,
 				C9E5113A2C2C87B700DC2D2D /* ContentView.swift */,
 				C9E5113C2C2C87B800DC2D2D /* Assets.xcassets */,
+				C9E511622C2C9E6500DC2D2D /* CircleImage.swift */,
+				C9E511642C2C9EF300DC2D2D /* MapView.swift */,
 				C9E5113E2C2C87B800DC2D2D /* Preview Content */,
 			);
 			path = Recipes;
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9E5113B2C2C87B700DC2D2D /* ContentView.swift in Sources */,
+				C9E511652C2C9EF300DC2D2D /* MapView.swift in Sources */,
 				C9E511392C2C87B700DC2D2D /* RecipesApp.swift in Sources */,
+				C9E511632C2C9E6500DC2D2D /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
