@@ -1,13 +1,10 @@
-//
-//  ModelData.swift
-//  Recipes
-//
-//  Created by Diego 2 on 6/26/24.
-//
-
 import Foundation
 
-var landmarks: [Landmark] = load("landmarkData.json")
+@Observable
+class ModelData {
+    var landmarks: [Landmark] = load("landmarkData.json")
+}
+
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

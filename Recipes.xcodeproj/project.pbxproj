@@ -10,6 +10,8 @@
 		C9596FCF2C2CABA900851CB2 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9596FCE2C2CABA900851CB2 /* LandmarkRow.swift */; };
 		C9596FD12C2CAEF600851CB2 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9596FD02C2CAEF600851CB2 /* LandmarkList.swift */; };
 		C9596FD32C2CB1DB00851CB2 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9596FD22C2CB1DB00851CB2 /* LandmarkDetail.swift */; };
+		C9596FD52C2CCCED00851CB2 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9596FD42C2CCCED00851CB2 /* FavoriteButton.swift */; };
+		C9596FD82C2CD92600851CB2 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9596FD72C2CD92600851CB2 /* Meal.swift */; };
 		C9E511392C2C87B700DC2D2D /* RecipesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E511382C2C87B700DC2D2D /* RecipesApp.swift */; };
 		C9E5113B2C2C87B700DC2D2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E5113A2C2C87B700DC2D2D /* ContentView.swift */; };
 		C9E5113D2C2C87B800DC2D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E5113C2C2C87B800DC2D2D /* Assets.xcassets */; };
@@ -45,6 +47,8 @@
 		C9596FCE2C2CABA900851CB2 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		C9596FD02C2CAEF600851CB2 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		C9596FD22C2CB1DB00851CB2 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		C9596FD42C2CCCED00851CB2 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		C9596FD72C2CD92600851CB2 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		C9E511352C2C87B700DC2D2D /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E511382C2C87B700DC2D2D /* RecipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesApp.swift; sourceTree = "<group>"; };
 		C9E5113A2C2C87B700DC2D2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,8 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				C9E5113A2C2C87B700DC2D2D /* ContentView.swift */,
-				C9E511622C2C9E6500DC2D2D /* CircleImage.swift */,
-				C9E511642C2C9EF300DC2D2D /* MapView.swift */,
 				C9596FCE2C2CABA900851CB2 /* LandmarkRow.swift */,
 				C9596FD02C2CAEF600851CB2 /* LandmarkList.swift */,
 				C9596FD22C2CB1DB00851CB2 /* LandmarkDetail.swift */,
@@ -105,6 +107,7 @@
 			children = (
 				C9E511682C2CA22300DC2D2D /* Landmark.swift */,
 				C9E5116A2C2CA35500DC2D2D /* ModelData.swift */,
+				C9596FD72C2CD92600851CB2 /* Meal.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -115,6 +118,16 @@
 				C9E511662C2CA20900DC2D2D /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		C9596FD62C2CCD9300851CB2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C9E511622C2C9E6500DC2D2D /* CircleImage.swift */,
+				C9E511642C2C9EF300DC2D2D /* MapView.swift */,
+				C9596FD42C2CCCED00851CB2 /* FavoriteButton.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		C9E5112C2C2C87B700DC2D2D = {
@@ -140,6 +153,7 @@
 		C9E511372C2C87B700DC2D2D /* Recipes */ = {
 			isa = PBXGroup;
 			children = (
+				C9596FD62C2CCD9300851CB2 /* Helper */,
 				C9E511382C2C87B700DC2D2D /* RecipesApp.swift */,
 				C9596FCB2C2CA6D600851CB2 /* Resources */,
 				C9596FCA2C2CA6C600851CB2 /* Model */,
@@ -309,6 +323,8 @@
 				C9E5113B2C2C87B700DC2D2D /* ContentView.swift in Sources */,
 				C9E511652C2C9EF300DC2D2D /* MapView.swift in Sources */,
 				C9E511392C2C87B700DC2D2D /* RecipesApp.swift in Sources */,
+				C9596FD52C2CCCED00851CB2 /* FavoriteButton.swift in Sources */,
+				C9596FD82C2CD92600851CB2 /* Meal.swift in Sources */,
 				C9596FD12C2CAEF600851CB2 /* LandmarkList.swift in Sources */,
 				C9596FD32C2CB1DB00851CB2 /* LandmarkDetail.swift in Sources */,
 				C9E511632C2C9E6500DC2D2D /* CircleImage.swift in Sources */,
