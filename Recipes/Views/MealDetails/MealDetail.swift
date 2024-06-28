@@ -10,9 +10,18 @@ struct MealDetail: View {
             VStack (alignment:.leading, spacing: 8) {
                 if let meal = viewModel.mealDetails.first {
                     HeaderImage(imageUrl: meal.strMealThumb)
+                    HStack(spacing: 16) {
+                        MealCard(iconName: "fork.knife", iconTxt: meal.strCategory)
+                        MealCard(iconName: "globe", iconTxt: meal.strArea)
+                    }
+                    .padding(.vertical)
+                    
+                    Text(meal.strInstructions)
+                        .lineSpacing(5.0)
                 }
                 
             }
+            .padding()
         }
         .navigationTitle(meal.strMeal)
         .navigationBarTitleDisplayMode(.inline)
