@@ -2,7 +2,7 @@ import SwiftUI
 
 struct MealList: View {
     
-    @StateObject var viewModel = MealViewModel()
+    @StateObject var viewModel = MealListViewModel()
     
     var body: some View {
         NavigationView {
@@ -10,7 +10,7 @@ struct MealList: View {
                 ForEach(viewModel.meals, id: \.idMeal) { meal in
                     
                     NavigationLink {
-                        Text(meal.strMeal)
+                        MealDetail(meal: meal)
                     } label: {
                         MealLabelRow(meal: meal)
                     }

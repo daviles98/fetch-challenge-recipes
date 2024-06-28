@@ -1,6 +1,6 @@
 import Foundation
 
-class MealViewModel: ObservableObject {
+class MealListViewModel: ObservableObject {
     
     @Published var meals: [Meal] = []
     
