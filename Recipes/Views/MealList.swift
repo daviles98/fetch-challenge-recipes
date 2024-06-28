@@ -10,9 +10,9 @@ struct MealList: View {
                 ForEach(viewModel.meals, id: \.idMeal) { meal in
                     
                     NavigationLink {
-                        Text("TBD")
-                    } label: {
                         Text(meal.strMeal)
+                    } label: {
+                        MealLabelRow(meal: meal)
                     }
                 }
             }
